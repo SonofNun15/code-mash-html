@@ -10,6 +10,7 @@ html, body {
 }
 
 .site header {
+    flex-shrink: 0;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -94,6 +95,7 @@ html, body {
 }
 
 .site footer {
+    flex-shrink: 0;
     padding: 10px;
     background: #000;
     color: #0c84a9;

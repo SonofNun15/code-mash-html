@@ -1,10 +1,18 @@
-a {
+header a {
     text-decoration: none;
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     color: orange;
+}
+
+body {
+    color: #222;
 }
 
 .site footer .top {
@@ -18,3 +26,90 @@ a:hover {
     cursor: pointer;
 }
 
+main article .days {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.scroll {
+    font-size: 2em;
+    align-self: center;
+}
+
+main article .days .change-day:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+main article .day {
+    margin: 0 25px;
+}
+
+.schedule {
+    position: relative;
+    margin-top: 25px;
+}
+
+.schedule td {
+    height: 40px;
+}
+
+.schedule td.time {
+    width: 60px;
+    text-align: right;
+}
+
+.schedule .time span {
+    background: white;
+    position: relative;
+    top: -22px;
+    font-size: 0.9em;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.schedule td.gap, .schedule td.event {
+    border-top: 1px dashed #0c84a9;
+    color: #666;
+}
+
+.schedule td.gap {
+    width: 15px;
+}
+
+.schedule td.event {
+    width: 140px;
+}
+
+.schedule div.event, .schedule a.event {
+    position: absolute;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ddd;
+    box-shadow: 3px 3px 3px #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule div.event:hover, .schedule a.event:hover {
+    background: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.events .event {
+    margin: 0 25px;
+    width: 500px;
+}
