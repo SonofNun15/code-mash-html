@@ -11,6 +11,11 @@
     a {
       text-decoration: none;
       color: white;
+
+      &:hover {
+        cursor: pointer;
+        color: orange;
+      }
     }
 
     nav {
@@ -28,12 +33,9 @@
       }
 
       ul {
-        list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 0;
-        padding: 0;
       }
 
       li {
