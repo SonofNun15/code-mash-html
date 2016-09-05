@@ -1,0 +1,27 @@
+{
+  "name": "code-mash-html",
+  "version": "1.0.0",
+  "description": "Templmates for html",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  },
+  "scripts": {
+    "sass": "node-sass assets/styles/ -o assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonofNun15/code-mash-html.git"
+  },
+  "keywords": [
+    "html",
+    "scss"
+  ],
+  "author": "Josh Graber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonofNun15/code-mash-html/issues"
+  },
+  "homepage": "https://github.com/SonofNun15/code-mash-html#readme"
+}
