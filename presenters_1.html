@@ -29,9 +29,13 @@
     <ul>
       <li><a href="/">Schedule</a></li>
       <li><a href="/events">Events</a></li>
-      <li><a href="/presenters">Presenters</a></li>
+      <li class="active"><a href="/presenters">Presenters</a></li>
       <li><a href="/categories">Categories</a></li>
     </ul>
+    <button class="navigator">
+      <i class="fa fa-navicon"></i>
+      <i class="fa fa-caret-down"></i>
+    </button>
   </nav>
   <div class="profile">
     <div class="menu">
@@ -43,52 +47,57 @@
     </div>
   </div>
 </header>
-<main>
-  <section>
-    <div class="title">
-      <div class="return"><a href="/presenters"><i class="fa fa-reply"></i></a></div>
-      <h1>Josh Graber</h1>
+<div class="content">
+  <main>
+    <section>
+      <div class="title">
+        <div class="return"><a href="/presenters"><i class="fa fa-reply"></i></a></div>
+        <h1>Josh Graber</h1>
+      </div>
+      <div class="presenter">
+        <ul class="category-tags">
+          <li><a href="/categories_1">Front-end</a></li>
+          <li><a href="/categories_1">JavaScript</a></li>
+        </ul>
+        <p>My passion is solving complex problems with simple solutions. I love new technology because it often
+          simplifies
+          our solutions. Intuitive user experience and workflows are essential because they make software solutions
+          accessible. We learn most by doing; never be afraid to take risks and fail.</p>
+        <ul class="events">
+          <li class="event">
+            <h3>4 Times Richer: Part 1</h3>
+            <h4>Tuesday, Jan 10th, 8:00am - 12:00pm</h4>
+            <ul class="category-tags">
+              <li><a href="/categories_1">Front end</a></li>
+              <li><a href="/categories/2">Javascript</a></li>
+            </ul>
+            <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag:
+              #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You
+              will walk away understanding the strengths and weaknesses of each approach and equipped to select and
+              focus
+              on
+              the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful, standards
+              driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over
+              configuration,
+              simple, effective * Elm: Functional, unique As we work with each framework, we will examine its unique
+              methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a “best”
+              framework.
+              We will get our hands dirty building real code with plenty of examples, demonstrations, and working
+              applications on GitHub for reference.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="copyright">
+      <span>Copyright &copy; 2016</span>
+      <span>All rights reserved</span>
     </div>
-    <div class="presenter">
-      <ul class="category-tags">
-        <li><a href="/categories_1">Front-end</a></li>
-        <li><a href="/categories_1">JavaScript</a></li>
-      </ul>
-      <p>My passion is solving complex problems with simple solutions. I love new technology because it often simplifies
-        our solutions. Intuitive user experience and workflows are essential because they make software solutions
-        accessible. We learn most by doing; never be afraid to take risks and fail.</p>
-      <ul class="events">
-        <li class="event">
-          <h3>4 Times Richer: Part 1</h3>
-          <h4>Tuesday, Jan 10th, 8:00am - 12:00pm</h4>
-          <ul class="category-tags">
-            <li><a href="/categories_1">Front end</a></li>
-            <li><a href="/categories/2">Javascript</a></li>
-          </ul>
-          <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag:
-            #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You
-            will walk away understanding the strengths and weaknesses of each approach and equipped to select and focus
-            on
-            the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful, standards
-            driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over configuration,
-            simple, effective * Elm: Functional, unique As we work with each framework, we will examine its unique
-            methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a “best”
-            framework.
-            We will get our hands dirty building real code with plenty of examples, demonstrations, and working
-            applications on GitHub for reference.</p>
-        </li>
-      </ul>
+    <div class="top">
+      <i class="fa fa-arrow-up"></i>
     </div>
-  </section>
-</main>
-<footer>
-  <div class="copyright">
-    <span>Copyright &copy; 2016</span>
-    <span>All rights reserved</span>
-  </div>
-  <div class="top">
-    <i class="fa fa-arrow-up"></i>
-  </div>
-</footer>
+  </footer>
+</div>
 </body>
 </html>

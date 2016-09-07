@@ -20,31 +20,36 @@
 </head>
 
 <body class="site">
-  <header>
-    <a class="brand" href="http://www.codemash.org">
-      <img src="/assets/images/codemash-icon.png" height="50" />
-    </a>
-    <nav>
-      <div class="main">
-        <a href="/">CodeMash</a>
-      </div>
-      <ul>
-        <li><a href="/">Schedule</a></li>
-        <li><a href="/events">Events</a></li>
-        <li><a href="/presenters">Presenters</a></li>
-        <li><a href="/categories">Categories</a></li>
-      </ul>
-    </nav>
-    <div class="profile">
-      <div class="menu">
-        <div class="pic"></div>
-        <i class="drop-down fa fa-caret-down"></i>
-      </div>
-      <div class="schedule">
-        <a href="/user/schedule"><i class="fa fa-calendar"></i></a>
-      </div>
+<header>
+  <a class="brand" href="http://www.codemash.org">
+    <img src="/assets/images/codemash-icon.png" height="50"/>
+  </a>
+  <nav>
+    <div class="main">
+      <a href="/">CodeMash</a>
     </div>
-  </header>
+    <ul>
+      <li class="active"><a href="/">Schedule</a></li>
+      <li><a href="/events">Events</a></li>
+      <li><a href="/presenters">Presenters</a></li>
+      <li><a href="/categories">Categories</a></li>
+    </ul>
+    <button class="navigator">
+      <i class="fa fa-navicon"></i>
+      <i class="fa fa-caret-down"></i>
+    </button>
+  </nav>
+  <div class="profile">
+    <div class="menu">
+      <div class="pic"></div>
+      <i class="drop-down fa fa-caret-down"></i>
+    </div>
+    <div class="schedule">
+      <a href="/user/schedule"><i class="fa fa-calendar"></i></a>
+    </div>
+  </div>
+</header>
+<div class="content">
   <main>
     <section>
       <div class="title">
@@ -60,16 +65,32 @@
             <li><a href="/categories_1">Front end</a></li>
             <li><a href="/categories/2">Javascript</a></li>
           </ul>
-          <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag: #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You will walk away understanding the strengths and weaknesses of each approach and equipped to select and focus on the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful, standards driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over configuration, simple, effective * Elm: Functional, unique As we work with each framework, we will examine its unique methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a “best” framework. We will get our hands dirty building real code with plenty of examples, demonstrations, and working applications on GitHub for reference.</p>
+          <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag:
+            #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You
+            will walk away understanding the strengths and weaknesses of each approach and equipped to select and focus
+            on the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful,
+            standards driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over
+            configuration, simple, effective * Elm: Functional, unique As we work with each framework, we will examine
+            its unique methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a
+            “best” framework. We will get our hands dirty building real code with plenty of examples, demonstrations,
+            and working applications on GitHub for reference.</p>
         </div>
-        <div class="event">
+        <div class="event event-2">
           <h3>4 Times Richer: Part 1</h3>
           <h4><a href="/presenters_1">Josh Graber</a></h4>
           <ul class="category-tags">
             <li><a href="/categories_1">Front end</a></li>
             <li><a href="/categories/2">Javascript</a></li>
           </ul>
-          <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag: #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You will walk away understanding the strengths and weaknesses of each approach and equipped to select and focus on the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful, standards driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over configuration, simple, effective * Elm: Functional, unique As we work with each framework, we will examine its unique methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a “best” framework. We will get our hands dirty building real code with plenty of examples, demonstrations, and working applications on GitHub for reference.</p>
+          <p>The JavaScript ecosystem has exploded in the last few years, resulting in the popular hashtag:
+            #JavaScriptFatigue. In this workshop we take a whirlwind tour of 4 popular web application frameworks. You
+            will walk away understanding the strengths and weaknesses of each approach and equipped to select and focus
+            on the best tool for your project. We will provide hands-on experience with: * Angular 2: Powerful,
+            standards driven, all inclusive * ReactJS: Pluggable, functionally reactive * Aurelia: Convention over
+            configuration, simple, effective * Elm: Functional, unique As we work with each framework, we will examine
+            its unique methodology and ecosystem. We will discuss the strengths and weaknesses without advocating a
+            “best” framework. We will get our hands dirty building real code with plenty of examples, demonstrations,
+            and working applications on GitHub for reference.</p>
         </div>
         <i class="scroll fa fa-chevron-circle-right"></i>
       </div>
@@ -84,5 +105,10 @@
       <i class="fa fa-arrow-up"></i>
     </div>
   </footer>
+</div>
+<div class="scroll-bar">
+  <button><i class="fa fa-chevron-left"></i></button>
+  <button><i class="fa fa-chevron-right"></i></button>
+</div>
 </body>
 </html>
