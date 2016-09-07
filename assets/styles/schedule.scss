@@ -6,7 +6,6 @@ main section {
     align-items: flex-start;
   }
 
-
   .day {
     margin: 0 25px;
   }
@@ -51,6 +50,10 @@ main section {
       width: 150px;
     }
 
+    .event {
+      width: 140px;
+    }
+
     div.event, a.event {
       box-sizing: border-box;
       position: absolute;
@@ -69,6 +72,25 @@ main section {
         color: orange;
         cursor: pointer;
       }
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  main section {
+    .day-2 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  main section .schedule {
+    td.event-cell {
+      width: 130px;
+    }
+    .event {
+      width: 120px;
     }
   }
 }

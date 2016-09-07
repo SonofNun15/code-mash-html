@@ -11,11 +11,29 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
 
   main {
     flex: 1;
     width: 1200px;
     margin: 10px auto;
+  }
+
+  .scroll-bar {
+    display: none;
+    flex-direction: row;
+
+    button {
+      flex: 1;
+      font-size: 1.2em;
+    }
   }
 }
 
@@ -85,4 +103,41 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .site {
+    main {
+      width: 900px;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 999px) {
+  .site {
+    main {
+      width: auto;
+      margin: 20px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .site {
+    main {
+      width: auto;
+      margin: 8px;
+    }
+
+    .scroll {
+      display: none;
+    }
+
+    .scroll-bar {
+      display: flex;
+    }
+  }
 }
